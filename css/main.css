@@ -1,16 +1,15 @@
 .wrapper {
-  background-color: yellow;
+  background-color: rgb(238, 208, 144);
   height: 500px;
   width: 100%;
 }
 .conteiner {
   background-color: white;
-  height: 300px;
-  width: 200px;
-  margin: 100px 33px;
+  height: 400px;
+  width: 300px;
+  margin: 40px 60px;
   display: inline-block;
-  /* justify-content: center; */
-  /* align-items: center; */
+  padding: 10px;
 }
 .conteiner:hover {
   transform: scale(1.1);
@@ -19,8 +18,14 @@ h1 {
   color: green;
   text-align: center;
 }
-img {
+svg {
   height: 150px;
   width: 150px;
-  margin: 20px;
+  margin-left: 80px;
+}
+.text {
+  color: black;
+}
+h3 {
+  text-align: center;
 }
